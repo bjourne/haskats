@@ -1,0 +1,13 @@
+name:           haskats
+version:        0.0.1
+homepage:       https://github.com/bjourne/haskats
+synopsis:       Modules useful for me
+description:    Modules useful for me
+author:         Björn Lindqvist
+build-type:     Simple
+cabal-version:  >=1.2
+
+library
+    build-depends: base >= 3, filepath >= 1, directory >= 1
+    exposed-modules: System.Directory.WalkTree
+    ghc-options: -Wall
